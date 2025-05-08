@@ -1,0 +1,18 @@
+{
+  "results": [
+    {
+      "objectId": 1,
+      "title": "Team Calendar",
+      "properties": [],
+      "actions": [
+        {
+          "type": "IFRAME",
+          "width": 890,
+          "height": 748,
+          "uri": "https://calendar.google.com/calendar/embed?src=Y182ZDc4ZTZkODdlZWRhOGU4ZTA0OTY4MjUwNzQzMTM5NWM2ZTBiNTcwNzRlOTY1Y2NjZjAwYzBiMDZkZmZhZGIzQGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20&mode=WEEK&ctz=America/Chicago",
+          "label": "View Calendar"
+        }
+      ]
+    }
+  ]
+}
