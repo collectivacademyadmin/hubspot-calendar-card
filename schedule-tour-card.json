@@ -1,0 +1,27 @@
+{
+  "title": "Schedule Tour",
+  "targetObjectTypes": ["CONTACT"],
+  "fetch": {
+    "targetUrl": "https://api.hubapi.com/crm/v3/objects/contacts/{{objectId}}?properties=schedule_in_person_tour_url",
+    "method": "GET",
+    "headers": {
+      "Authorization": "Bearer {{accessToken}}"
+    }
+  },
+  "display": {
+    "cardType": "CRM_CARD",
+    "sections": [
+      {
+        "type": "INFO",
+        "title": "Tour Link",
+        "body": [
+          {
+            "type": "LINK",
+            "text": "Open Tour URL",
+            "href": "{{properties.schedule_in_person_tour_url}}"
+          }
+        ]
+      }
+    ]
+  }
+}
