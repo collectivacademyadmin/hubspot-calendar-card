@@ -2,27 +2,15 @@
   "results": [
     {
       "objectId": 1,
-      "title": "Campus Resources",
+      "title": "Schedule Tour",
       "properties": [
         {
-          "label": "Campus Calendar",
+          "label": "Tour",
           "dataType": "STRING",
-          "value": "Click to view your campus calendar"
-        },
-        {
-          "label": "In-Person Tour",
-          "dataType": "STRING",
-          "value": "Schedule a campus visit"
+          "value": "Click to schedule an in-person tour"
         }
       ],
       "actions": [
-        {
-          "type": "IFRAME",
-          "width": 890,
-          "height": 748,
-          "uri": "https://collectivacademyadmin.github.io/hubspot-campus-calendars/redirect.html",
-          "label": "View Calendar"
-        },
         {
           "type": "URL",
           "width": 890,
