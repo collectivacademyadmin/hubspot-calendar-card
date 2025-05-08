@@ -2,10 +2,10 @@
   "results": [
     {
       "objectId": 1,
-      "title": "Schedule Tour",
+      "title": "Schedule In-Person Tour",
       "properties": [
         {
-          "label": "Tour",
+          "label": "Tour Information",
           "dataType": "STRING",
           "value": "Click to schedule an in-person tour"
         }
@@ -15,7 +15,7 @@
           "type": "URL",
           "width": 890,
           "height": 748,
-          "uri": "{{schedule_in_person_tour_url}}",
+          "uri": "${schedule_in_person_tour_url}",
           "label": "Schedule Tour"
         }
       ]
