@@ -13,12 +13,11 @@
     "sections": [
       {
         "type": "INFO",
-        "title": "Tour Link",
+        "title": "Tour Link Debug",
         "body": [
           {
-            "type": "LINK",
-            "text": "Open Tour URL",
-            "href": "{{properties.schedule_in_person_tour_url}}"
+            "type": "TEXT",
+            "text": "Tour URL is: {{properties.schedule_in_person_tour_url}}"
           }
         ]
       }
